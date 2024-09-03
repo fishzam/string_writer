@@ -1,0 +1,17 @@
+
+[general]
+name=String Writer
+qgisMinimumVersion=3.10
+description=Writes QGIS layers to Surpac string file format
+version=0.1
+author=Paddy Fisher
+email=padfish@hotmail.co.uk
+tracker=https://github.com/fishza/string_writer/issues
+repository=https://github.com/fishza/string_writer
+category=Vector
+icon=icon.png
+homepage=https://yourhomepage.com
+tags=surpac,string,export
+experimental=False
+deprecated=False
+server=False
