@@ -1,0 +1,5 @@
+<!DOCTYPE RCC><RCC version="0.1">
+<qresource prefix="/plugins/string_writer">
+    <file>icon.png</file>
+</qresource>
+</RCC>
