@@ -12,6 +12,6 @@ category=Vector
 icon=icon.png
 homepage=https://github.com/fishzam/string_writer
 tags=surpac,string,export
-experimental=False
+experimental=True
 deprecated=False
 server=False
