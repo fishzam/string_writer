@@ -183,6 +183,9 @@ class StringWriter:
                 for feature in layer.getFeatures():
                     geom = feature.geometry()
 
+                    if geom is None or geom.isEmpty():
+                        continue
+
                     if layer.geometryType() == QgsWkbTypes.LineGeometry:
                         if geom.isMultipart():
                             line_strings = geom.asMultiPolyline()
